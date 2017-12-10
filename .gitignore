@@ -102,4 +102,4 @@ ENV/
 
 # data
 /test_audio
-/test_spectrogram
+/test_spectrograms
