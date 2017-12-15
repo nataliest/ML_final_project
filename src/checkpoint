@@ -1,0 +1,2 @@
+model_checkpoint_path: "/Users/sangencre/Desktop/NYU/fall_17/ML/final_project/ML_final_project/src/musicDNN.tflearn"
+all_model_checkpoint_paths: "/Users/sangencre/Desktop/NYU/fall_17/ML/final_project/ML_final_project/src/musicDNN.tflearn"

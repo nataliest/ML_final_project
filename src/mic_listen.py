@@ -3,12 +3,12 @@ import wave
  
 FORMAT = pyaudio.paInt16
 CHANNELS = 2
-RATE = 8000
+RATE = 16000
 CHUNK = 1024
 RECORD_SECONDS = 5
 WAVE_OUTPUT_FILENAME = "file.wav"
 
-for i in range(180): 
+for i in range(180, 185): 
 	WAVE_OUTPUT_FILENAME = "noise_" + str(i) + ".wav"
 	audio = pyaudio.PyAudio()
 	 
@@ -16,7 +16,7 @@ for i in range(180):
 	stream = audio.open(format=FORMAT, channels=CHANNELS,
 	                rate=RATE, input=True,
 	                frames_per_buffer=CHUNK)
-	print "recording..."
+	print "recording..." + str(i)
 	frames = []
 	 
 	for i in range(0, int(RATE / CHUNK * RECORD_SECONDS)):
