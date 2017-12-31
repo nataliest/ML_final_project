@@ -7,3 +7,5 @@ http://www.techtimes.com/articles/92149/20151007/911-calls-from-accidental-butt-
 My approach is to teach a Convolutional Neural Network to distinguish between spectrograms obtained from pocket dial audio and speech audio files.
 
 Some of the data processing code based on the code I found here: https://github.com/despoisj/DeepAudioClassification
+
+For this project, I created a pocket dial audio dataset. The audio files can be accessed at https://mega.nz/#F!KwcByYYY
