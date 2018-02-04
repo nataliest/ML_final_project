@@ -103,3 +103,4 @@ ENV/
 # data
 /test_audio
 /test_spectrograms
+*.p
